@@ -1,0 +1,39 @@
+{
+  "name": "node-api-response-kit",
+  "version": "1.0.0",
+  "description": "Ready to use standardized API response and error handling utilities for Node.js backends",
+  "main": "src/index.js",
+  "type": "commonjs",
+
+  "files": ["src"],
+
+  "scripts": {
+    "test": "jest",
+    "lint": "echo \"Add ESLint later\""
+  },
+
+  "keywords": [
+    "api-response",
+    "nodejs",
+    "express",
+    "backend",
+    "error-handling",
+    "http-status",
+    "middleware"
+  ],
+
+  "author": "Harih Sangre<harishsangre00@gmail.com>",
+  "license": "MIT",
+
+  "engines": {
+    "node": ">=14"
+  },
+
+  "peerDependencies": {
+    "express": ">=4"
+  },
+
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
